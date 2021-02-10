@@ -26,7 +26,7 @@ app.listen(3000, () => {
   console.log("port 3000");
 });
 
-mongoose.connect("mongodb://127.0.0.1:27017/sheik", { useNewUrlParser: true });
+mongoose.connect("mongodb://127.0.0.1:27017/esakki", { useNewUrlParser: true });
 
 mongoose.connection.on("error", function (err) {
   console.log("database connection is error");
